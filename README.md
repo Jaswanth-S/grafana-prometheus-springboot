@@ -1,4 +1,4 @@
-This POC is how to monitor spring-boot application using graffana and promethues
+This POC is how to monitor spring-boot application using grafana and promethues
 
 -------------- Steps involved to check the steup  -------------
 
@@ -56,7 +56,7 @@ This POC is how to monitor spring-boot application using graffana and promethues
       				- targets: ['172.23.239.59:8080']
 
 
-	Give your system ip address in my case it is 172.23.239.59, Since we are using Docker to 	run Prometheus, it will be running in a Docker network that won't understand localhost
+	Give your system ip address in my case it is 172.23.239.59, Since we are using Docker to run Prometheus, it will be 		running in a Docker network that won't understand localhost
 	
 	b) run the below command
 
@@ -66,7 +66,7 @@ This POC is how to monitor spring-boot application using graffana and promethues
 
 	  open	http://localhost:9090/targets, you can see springboot appplication up and running
 
-3)Let's configure graffana
+3)Let's configure grafana
 
 
 	a) Let's start off by running Grafana using Docker
