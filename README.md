@@ -1,6 +1,6 @@
 This POC is how to monitor spring-boot application using grafana and promethues
 
--------------- Steps involved to check the steup  -------------
+-------------- Steps involved to check the setup  -------------
 
 1)sample springboot application which connects to mongodb
 	
